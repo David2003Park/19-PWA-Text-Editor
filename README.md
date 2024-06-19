@@ -1,46 +1,22 @@
-# 19-PWA-Text-Editor
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# PWA-Text-Editor
+## Description
+This is a in browser text editor that uses indexDB. Upon visitng the website, the user will be presented with a text editor that they can type in. The text should persist even if the page is reloaded. 
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+## Installation
+To install on locally:
+1. Copy the SSH key from the Repo into a folder on your own computer
+2. Once the files are installed, open the folder in your personal workspace
+3. For this application you will have run npm install in the integrated terminal for all the package.json files to install their dependencies.
+4. Once the files are installed, run npm start
+5. Navigate to the local host url in your browser and use the application
+## Usage
+Visit website [here](https://text-editor019.herokuapp.com/)
 
-## User Story
+<img width="1068" alt="Screenshot 2023-03-01 at 5 26 19 PM" src="https://user-images.githubusercontent.com/117382111/222290634-c40914f6-0756-4248-96e5-3038d2ae3493.png">
 
-```md
-AS A developer
-I WANT to create notes or code snippets with or without an internet connection
-SO THAT I can reliably retrieve them for later use
-```
-
-## Acceptance Criteria
-
-```md
-GIVEN a text editor web application
-WHEN I open my application in my editor
-THEN I should see a client server folder structure
-WHEN I run `npm run start` from the root directory
-THEN I find that my application should start up the backend and serve the client
-WHEN I run the text editor application from my terminal
-THEN I find that my JavaScript files have been bundled using webpack
-WHEN I run my webpack plugins
-THEN I find that I have a generated HTML file, service worker, and a manifest file
-WHEN I use next-gen JavaScript in my application
-THEN I find that the text editor still functions in the browser without errors
-WHEN I open the text editor
-THEN I find that IndexedDB has immediately created a database storage
-WHEN I enter content and subsequently click off of the DOM window
-THEN I find that the content in the text editor has been saved with IndexedDB
-WHEN I reopen the text editor after closing it
-THEN I find that the content in the text editor has been retrieved from our IndexedDB
-WHEN I click on the Install button
-THEN I download my web application as an icon on my desktop
-WHEN I load my web application
-THEN I should have a registered service worker using workbox
-WHEN I register a service worker
-THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
-WHEN I deploy to Render
-THEN I should have proper build scripts for a webpack application
-```
-con on my desktop
-WHEN I load my web application
-THEN I should have a registered service worker using workbox
-WHEN I register a service worker
-THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
-WHEN I deploy to Render
-THEN I should have proper build scripts for a webpack application
+## License
+This project uses an MIT license. For more information click the license badge at the top of the README.
